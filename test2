@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Help Form</title>
+  <title>Contact Us</title>
 </head>
 <body>
 
-<h2>Contact Us</h2>
+<h1>Welcome to Aalee AI Solutions</h1>
 
-<!-- =============================== -->
-<!-- Business Source Content Section -->
-<!-- =============================== -->
+<p>
+Aalee AI Solutions provides AI-powered automation tools for businesses.
+We help companies improve customer engagement, automate support, and manage
+knowledge bases efficiently.
+</p>
 
-<section>
-  <h3>About Our Business</h3>
-  <p>
-    We are a professional software solutions company providing AI-powered 
-    automation tools for businesses. Our services include chatbot development, 
-    website integration, CRM automation, and customer support solutions.
-  </p>
+<p>
+Our services include:
+</p>
 
-  <p>
-    Our mission is to help businesses streamline operations, improve customer 
-    engagement, and increase productivity through intelligent automation.
-  </p>
+<ul>
+  <li>AI Assistant Integration</li>
+  <li>Website Knowledge Base Setup</li>
+  <li>Email & WhatsApp Automation</li>
+  <li>Business Workflow Automation</li>
+</ul>
 
-  <p>
-    Key Services:
-    <ul>
-      <li>AI Assistant Integration</li>
-      <li>Website Knowledge Base Setup</li>
-      <li>WhatsApp & Email Automation</li>
-      <li>Custom Business Workflow Automation</li>
-    </ul>
-  </p>
-</section>
+<p>
+Our mission is to simplify business communication using intelligent automation
+and scalable AI technology.
+</p>
 
 <hr>
 
-<form name="help-form" method="POST" data-netlify="true">
+<h2>Contact Us</h2>
 
-  <input type="hidden" name="form-name" value="help-form">
+<form method="POST">
 
   <label>How can we help you?</label><br><br>
 
@@ -51,19 +45,10 @@
   </textarea>
 
   <br><br>
+
   <button type="submit">Submit</button>
 
 </form>
-
-<script>
-  (function() {
-    var widget = document.createElement('script');
-    widget.src = 'https://assist.aalee.ai/widget.js';
-    widget.setAttribute('data-assistant-id', '2f4281ce-db25-4b8c-9269-28df56772ed7');
-    widget.async = true;
-    document.body.appendChild(widget);
-  })();
-</script>
 
 </body>
 </html>
